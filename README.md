@@ -13,6 +13,22 @@ API’et gør det muligt at:
 
 Data gemmes i en liste i hukommelsen. Dvs. at alt indtastet data nulstilles/fjernes, når programmet genstartes.
 
+### Start server:
+uvicorn main:app --reload
+
+### Åbn API dokumentation:
+http://127.0.0.1:8000/docs
+
+### Docker
+Build:
+docker build -t todo-api .
+
+### Kør:
+docker run -p 8000:8000 todo-api
+
+### Installer dependencies:
+pip install -r requirements.txt
+
 ## Anvendte dependencies
 - Python
 - FastAPI
@@ -49,24 +65,8 @@ IT-Teknolog studerende (Erhvervsakademi København)
 5. Vælg interpreter i VS Code:
    Ctrl + Shift + P → "Python: Select Interpreter" → vælg venv
 
-### Installer dependencies:
-pip install -r install_list.txt
-
-# Start server:
-uvicorn main:app --reload
-
-### Åbn API dokumentation:
-http://127.0.0.1:8000/docs
-
-### Docker
-Build:
-docker build -t todo-api .
-
-### Kør:
-docker run -p 8000:8000 todo-api
-
 # Bemærk
-Projektet er lavet som en læringsopgave og bruger ikke database.
+Projektet er lavet som en læringsopgave, og bruger ikke database.
 
 Input i POST funktionen på Swagger UI skal skrives således:
   Eksempel 1:
