@@ -42,7 +42,7 @@ IT-Teknolog studerende (Erhvervsakademi København)
 
 
 
-# Sådan køres projektet lokalt ---------- Denne del er skrevet for min egen skyld, til fremtidig reference/repetition
+# Sådan køres projektet lokalt - Denne del er skrevet for min egen skyld, til fremtidig reference/repetition
 
 ### Docker opsætning (kort guide):
 
