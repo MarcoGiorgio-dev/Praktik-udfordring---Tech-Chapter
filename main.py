@@ -36,7 +36,7 @@ def create_todo(todo: dict):
     # Logger input of listen i terminalen
     print("Gemte todos:", todos)
 
-    return {"Besked": "To-do oprettet!", "Nyt punkt: ": todo}
+    return {"message": "To-do oprettet!", "Nyt punkt: ": todo}
 
 # Opretter en funktion der sletter en to-do baseret på ID
 @app.delete("/todos/{todo_id}")
